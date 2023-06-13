@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box-model{
+            margin: 100px;
+            border: 10px blue;
+            background-color: white;
+            margin-top: 140px;
+            margin-left: 550px;
+            width: 300px;
+            height: 410px;
+            box-shadow: 10px 10px 2px gray;
+        }
+        body{
+            background-color: aqua;
+        }
+        @media only screen and (max-width: 500px){
+         body{
+                background-color: blue;
+            }
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="box-model">
+        <form style="margin-top: 30px;">
+            <h1 style="margin-left: 100px;">LOGIN</h1>
+        <label style="margin-left: 10px;"><i class="fa-solid fa-user"></i>Enter your username</label><br>
+        <input type="text" style="margin-left: 20px;" placeholder="username" required><br><br>
+        <label style="margin-left: 10px;"><i class="fa-solid fa-mobile"></i>Enter mobile number</label>
+        <input type="tel" style="margin-left: 20px;" placeholder="Mobile number" required><br><br>
+        <label style="margin-left: 10px;"><i class="fa-solid fa-lock"></i>Enter your password</label>
+        <input type="password" style="margin-left: 20px;" placeholder="password" required><br><br>
+        <a.href>
+        <a.href style="font-size: 12px;">Try another way</a.href>
+        <a.href style="margin-left: 100px; font-size: 12px;">Forget password</a.href><br><br><br>
+        </a.href>
+        <button type="LOGIN" style="margin-left: 90px;">LOGIN</button><br><br>
+        <label style="margin-left: 80px;">or sign up using</label><br><br>
+        <i class="fa-brands fa-facebook fa-xl" style="margin-left: 90px; color:blue"></i>
+        <i class="fa-brands fa-twitter fa-xl" style="color: skyblue;"></i>
+        <i class="fa-brands fa-google fa-xl" style="color: rgb(255, 153, 0);"></i>
+        </form>
+    </div>
+</body>
+</html>

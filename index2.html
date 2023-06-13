@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <p id="maths"></p>
+        <script>
+            const numbers = [40, 30, 60, 50];
+            document.getElementById("maths").innerHTML =  numbers.reduce(func);
+            function func(total, numbers) {
+            return total + numbers;
+        }
+        </script>
+    </body>
+</html>
